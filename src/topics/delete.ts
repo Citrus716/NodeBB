@@ -1,12 +1,11 @@
 'use strict';
 
-const db = require('../database');
-
-const user = require('../user');
-const posts = require('../posts');
-const categories = require('../categories');
-const plugins = require('../plugins');
-const batch = require('../batch');
+import db from '../database';
+import user from '../user';
+import posts from '../posts';
+import categories from '../categories';
+import plugins from '../plugins';
+import batch from '../batch';
 
 
 module.exports = function (Topics) {
